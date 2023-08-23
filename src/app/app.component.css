@@ -1,0 +1,41 @@
+.content {
+    margin-left: 230px;
+    padding: 7px 7px;
+}
+
+section.genres { display: flex; }
+
+ul.list {
+    margin: 0;
+    padding: 0;
+}
+
+ul.list > li.genre {
+    background-color: rgba(0,0,0,0.70);
+    padding: 7px 7px;
+    font-size: 12px;
+    margin: 2px;
+    border-radius: 5px;
+    list-style: none;
+    color: white;
+}
+
+.film {
+    height: 250px;
+    width: 200px;
+    margin: 3px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.film > .title {
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    color: white;
+    border-radius: 5px;;
+}
